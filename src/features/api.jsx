@@ -1,4 +1,4 @@
-export const url = "http://localhost:3000/api";
+export const url = "https://shopping-cart-redux-api.onrender.com/api";
 
 export const setHeaders = () => {
   const headers = {

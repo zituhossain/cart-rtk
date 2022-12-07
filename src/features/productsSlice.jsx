@@ -10,7 +10,9 @@ const initialState = {
 export const productsFetch = createAsyncThunk(
   "products/productsFetch",
   async () => {
-    const response = await axios.get("https://simple-shopping-cart-redux.herokuapp.com/products");
+    const response = await axios.get(
+      "https://shopping-cart-redux-api.onrender.com/products"
+    );
     return response?.data;
   }
 );
